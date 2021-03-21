@@ -673,7 +673,9 @@ module.exports = function(webpackEnv) {
         ]
       }),
 
-      isEnvProduction && new BundleAnalyzerPlugin(),
+      isEnvProduction && new BundleAnalyzerPlugin({
+        analyzerMode: 'disabled'
+      }),
       new webpack.DllReferencePlugin({
         manifest: path.resolve(__dirname, '../dll/manifest.json')
       }),
