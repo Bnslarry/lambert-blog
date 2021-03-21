@@ -38,7 +38,7 @@ http.createServer(async (req, res) => {
      deleteFolderRecursive(projectDir)
      
       // 拉取仓库最新代码   https://github.com/Bnslarry/lambert-blog.git
-      execSync(`git clone https://github.com/Bnslarry/${data.repository.name}.git ${projectDir}`,{
+      execSync(`git clone https://github.com.cnpmjs.org/Bnslarry/${data.repository.name}.git ${projectDir}`,{
         stdio:'inherit',
     })
     
