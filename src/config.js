@@ -9,7 +9,7 @@ import MyInfo from '@/views/web/about/MyInfo'
 export const HEADER_BLOG_NAME = 'Lambert的博客' // header title 显示的名字
 
 // API_BASE_URL
-export const API_BASE_URL = '//172.81.210.155:6060'
+export const API_BASE_URL = '//blog.yuhui.run:6060'
 
 // === sidebar
 export const SIDEBAR = {
